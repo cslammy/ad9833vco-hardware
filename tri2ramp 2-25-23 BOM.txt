@@ -1,0 +1,57 @@
+ 
+tri to ramp-pls 2-25-23.sch 
+
+Part    Value   Device          Package       Description                          POPULARITY SPICEPREFIX
+        1                     
+C1      2.2uF   CPOL-USE5-4     E5-4          POLARIZED CAPACITOR, American symbol                       
+C2      .0022uF C-US050-030X075 C050-030X075  CAPACITOR, American symbol           5          C          
+C3      .0022uF C-US050-035X075 C050-035X075  CAPACITOR, American symbol           0          C          
+C4      .1uF    C-US025-025X050 C025-025X050  CAPACITOR, American symbol           0          C          
+C5      .1uF    C-US025-025X050 C025-025X050  CAPACITOR, American symbol           0          C          
+C6      .1uF    C-US025-025X050 C025-025X050  CAPACITOR, American symbol           0          C          
+C7      .1uF    C-US025-025X050 C025-025X050  CAPACITOR, American symbol           0          C          
+C8      10uF    CPOL-USE5-4     E5-4          POLARIZED CAPACITOR, American symbol                       
+C9      .01uF   C-US050-035X075 C050-035X075  CAPACITOR, American symbol           0          C          
+D1      5V      ZENER.3         DO41-3        3V Zener                                                           
+                  
+IC1     TL084D  TL084D          SO14          OP AMP                               4                     
+IC2     CA3140N CA3140N         DIL08         OP AMP                               3                     
+IC3     TL081D  TL081D          SO08          OP AMP                                                     
+IC4     7805L   ADAFRUIT_7805L  ADAFRUIT_TO92 Positive VOLTAGE REGULATOR                                 
+         1                     
+Q1      2N7000  2N7000          TO92-         MOSFET                                                          
+R1      10K 1%  R-US_0204/7     0204/7        RESISTOR, American symbol                                  
+R2      27K     R-US_0204/7     0204/7        RESISTOR, American symbol                                  
+R3      20K     R-US_0204/7     0204/7        RESISTOR, American symbol                                  
+R4      20K     R-US_0204/7     0204/7        RESISTOR, American symbol                                  
+R5      200K    R-US_0204/7     0204/7        RESISTOR, American symbol                                  
+R6      1K      R-US_0204/7     0204/7        RESISTOR, American symbol                                  
+R7      1K      R-US_0204/7     0204/7        RESISTOR, American symbol                                  
+R8      100K    R-US_0204/7     0204/7        RESISTOR, American symbol                                  
+R9      100K    R-US_0204/7     0204/7        RESISTOR, American symbol                                  
+R10     100K    R-US_0204/7     0204/7        RESISTOR, American symbol                                  
+R11     20K     R-US_0204/7     0204/7        RESISTOR, American symbol                                  
+R12     1K      R-US_0204/7     0204/7        RESISTOR, American symbol                                  
+R13     180     R-US_0204/7     0204/7        RESISTOR, American symbol                                  
+R14     1K      R-US_0204/7     0204/7        RESISTOR, American symbol                                  
+R15     10K     R-US_0204/7     0204/7        RESISTOR, American symbol                                  
+R16     20K 1%  R-US_0204/7     0204/7        RESISTOR, American symbol                                  
+R17     100K 1% R-US_0204/7     0204/7        RESISTOR, American symbol                                  
+R18     50K 1%  R-US_0204/7     0204/7        RESISTOR, American symbol                                  
+R19     20K     R-US_0204/7     0204/7        RESISTOR, American symbol                                  
+
+Breakout Board:
+Project requires AD9833 Sig Generator with the following pinout:
+VCC
+DGND
+SDATA
+SCLK
+FSYNC
+AGND
+OUT
+
+here is one that works (the one I used)
+NOYITO AD9833 Programmable Microprocessor Serial Interface Module Sine Square Wave DDS Signal Generator
+https://www.amazon.com/NOYITO-Programmable-Microprocessor-Interface-Generator/dp/B07HFRFMPM
+There are many other vendors selling boards just like this on Aliexpress, Ebay etc.
+But!! Check to make sure what you buy has the pinout above.

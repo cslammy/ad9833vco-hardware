@@ -1,0 +1,36 @@
+ unt9833VCO pots jacks 1-29-23.sch 
+
+Part       Value         Device                   Package            Description                                       POPULARITY SPICEPREFIX
+                    
+EUROPWR                  EURO_POWER_HEADERREGULAR EURO_POWER_HEADER  Power Header                                                            
+FINE       50K           9MM_SNAP-IN_POT_         9MM_SNAP-IN_POT    9mm vertical snap-in pot, Alpha / Panasonic style                       
+FREQ       100k          9MM_SNAP-IN_POT_         9MM_SNAP-IN_POT    9mm vertical snap-in pot, Alpha / Panasonic style                       
+                     
+MODIN\     THONKICONNNEW THONKICONNNEW            WQP-PJ301M-12_JACK 3.5mm socket for Eurorack modular synths                                
+MODLEV     100K          9MM_SNAP-IN_POT_         9MM_SNAP-IN_POT    9mm vertical snap-in pot, Alpha / Panasonic style                       
+                
+PULSEOUT   THONKICONNNEW THONKICONNNEW            WQP-PJ301M-12_JACK 3.5mm socket for Eurorack modular synths                                
+PW-INITIAL 100k          9MM_SNAP-IN_POT_         9MM_SNAP-IN_POT    9mm vertical snap-in pot, Alpha / Panasonic style                       
+PWM        100k          9MM_SNAP-IN_POT_         9MM_SNAP-IN_POT    9mm vertical snap-in pot, Alpha / Panasonic style                       
+PWMIN      THONKICONNNEW THONKICONNNEW            WQP-PJ301M-12_JACK 3.5mm socket for Eurorack modular synths                                
+R1         100K          R-US_0204/7              0204/7             RESISTOR, American symbol                         48         R          
+R2         100K          R-US_0207/15             0207/15            RESISTOR, American symbol                         0          R          
+R3         100K          R-US_0207/15             0207/15            RESISTOR, American symbol                         0          R          
+R4         100ohms       R-US_0207/15             0207/15            RESISTOR, American symbol                         0          R          
+R5         100ohms       R-US_0207/15             0207/15            RESISTOR, American symbol                         0          R          
+R6         100K          R-US_0207/15             0207/15            RESISTOR, American symbol                         0          R          
+R7         100K          R-US_0204/7              0204/7             RESISTOR, American symbol                         48         R          
+R8         470K          R-US_0204/7              0204/7             RESISTOR, American symbol                         48         R          
+R9         470K          R-US_0204/7              0204/7             RESISTOR, American symbol                         48         R          
+RAMPOUT    THONKICONNNEW THONKICONNNEW            WQP-PJ301M-12_JACK 3.5mm socket for Eurorack modular synths                                
+                    
+TRIOUT     THONKICONNNEW THONKICONNNEW            WQP-PJ301M-12_JACK 3.5mm socket for Eurorack modular synths                                
+                  
+VOCT       THONKICONNNEW THONKICONNNEW            WQP-PJ301M-12_JACK 3.5mm socket for Eurorack modular synths     
+
+For hardware You will need 100mil (2.54mm) male and female PCB edge connectors
+Male: Amphenol 	10129378-920003BLF (get 40 pin edge connector and cut apart what you need)
+Female: Adafruit 36-PIN 0.1 FEMALE HEADER- 5PK (digikey 1528-2537-ND)
+
+Also 4/40 phillips screws (I used 3/4" Pan Phillips but most anything about this size will work) with nuts and washers to secure daughterboards to this PCB)
+                   
